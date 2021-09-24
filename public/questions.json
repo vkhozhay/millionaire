@@ -1,0 +1,961 @@
+[
+  {
+    "price": "500",
+    "questions": [
+      {
+        "id": "5001",
+        "price": "500",
+       "question": "A person with well-developed abdominal muscles is said to have a what?",
+        "multiAnswer": "false",
+       "answers": ["1"],
+       "variants" :[
+         {
+           "id": "0",
+           "value": "One-pack"
+         },
+         {
+           "id": "1",
+           "value": "Six-pack"
+         },
+         {
+           "id": "2",
+           "value": "12-pack"
+         },
+         {
+           "id": "3",
+           "value": "Family-pack"
+         }
+      ]
+      },
+      {
+        "id": "5002",
+        "price": "500",
+        "question": "Which two words traditionally appear onscreen at the termination of a feature film?",
+        "multiAnswer":"false",
+        "answers": ["0"],
+        "variants" :[
+          {
+            "id": "0",
+            "value": "The End"
+          },
+          {
+            "id": "1",
+            "value": "The Conclusion"
+          },
+          {
+            "id": "2",
+            "value": "The Finish"
+          },
+          {
+            "id": "3",
+            "value": "The Pizza Rolls Are Done"
+          }
+        ]
+      },
+      {
+        "id": "5003",
+        "price": "500",
+        "question": "A magnet would most likely attract which of the following?",
+        "multiAnswer":"false",
+        "answers": ["0"],
+        "variants" :[
+          {
+            "id": "0",
+            "value": "Metal"
+          },
+          {
+            "id": "1",
+            "value": "Plastic"
+          },
+          {
+            "id": "2",
+            "value": "Wood"
+          },
+          {
+            "id": "3",
+            "value": "The wrong man"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "price": "1000",
+    "questions": [
+      {
+        "id": "10001",
+        "price": "1000",
+        "question": "Which of these names is not in the title of a Shakespeare play?",
+        "multiAnswer": "false",
+        "answers": ["3"],
+        "variants" :[
+          {
+            "id": "0",
+            "value": "Hamlet"
+          },
+          {
+            "id": "1",
+            "value": "Romeo"
+          },
+          {
+            "id": "2",
+            "value": "Macbeth"
+          },
+          {
+            "id": "3",
+            "value": "Darren"
+          }
+        ]
+      },
+      {
+        "id": "10002",
+        "price": "1000",
+        "question": "Where did Scotch whisky originate?",
+        "multiAnswer":"false",
+        "answers": ["0"],
+        "variants" :[
+          {
+            "id": "0",
+            "value": "Ireland"
+          },
+          {
+            "id": "1",
+            "value": "Wales"
+          },
+          {
+            "id": "2",
+            "value": "The United States"
+          },
+          {
+            "id": "3",
+            "value": "Scotland"
+          }
+        ]
+      },
+      {
+        "id": "10003",
+        "price": "1000",
+        "question": "What name is traditionally given to the party held for a woman who is expecting a baby?",
+        "multiAnswer":"false",
+        "answers": ["1"],
+        "variants" :[
+          {
+            "id": "0",
+            "value": "Baby drizzle"
+          },
+          {
+            "id": "1",
+            "value": "Baby shower"
+          },
+          {
+            "id": "2",
+            "value": "Baby downpour"
+          },
+          {
+            "id": "3",
+            "value": "Baby deluge"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "price": "2000",
+    "questions": [
+      {
+      "id": "20001",
+        "price": "2000",
+      "question": "In fancy hotels, it is traditional for what tantalizing treat to be left on your pillow?",
+      "multiAnswer": "false",
+      "answers": ["2"],
+      "variants" :[
+        {
+          "id": "0",
+          "value": "A pretzel"
+        },
+        {
+          "id": "1",
+          "value": "An apple"
+        },
+        {
+          "id": "2",
+          "value": "A mint"
+        },
+        {
+          "id": "3",
+          "value": "A photo of Wolf Blitzer"
+        }
+      ]
+    },
+      {
+        "id": "20002",
+        "price": "2000",
+        "question": "In the United States, what is traditionally the proper way to address a judge?",
+        "multiAnswer":"false",
+        "answers": ["1"],
+        "variants" :[
+          {
+            "id": "0",
+            "value": "Your holiness"
+          },
+          {
+            "id": "1",
+            "value": "Your honor"
+          },
+          {
+            "id": "2",
+            "value": "Your eminence"
+          },
+          {
+            "id": "3",
+            "value": "You da man!"
+          }
+        ]
+      },
+      {
+        "id": "20003",
+        "price": "2000",
+        "question": "Which of these pairs of apps offers roughly the same type of service?",
+        "multiAnswer":"false",
+        "answers": ["3"],
+        "variants" :[
+          {
+            "id": "0",
+            "value": "Snapchat and Grubhub"
+          },
+          {
+            "id": "1",
+            "value": "Whatsapp and SHAREit"
+          },
+          {
+            "id": "2",
+            "value": "TikTok and Spotify"
+          },
+          {
+            "id": "3",
+            "value": "Lyft and Uber"
+          }
+        ]
+      }]
+  },
+  {
+    "price": "4000",
+    "questions": [
+      {
+        "id": "40001",
+        "price": "4000",
+        "question": "The popular children's song \"It's Raining, It's Pouring\" mentions an \"old man\" doing what?",
+        "multiAnswer": "false",
+        "answers": ["0"],
+        "variants" :[
+          {
+            "id": "0",
+            "value": "Snoring"
+          },
+          {
+            "id": "1",
+            "value": "Cooking"
+          },
+          {
+            "id": "2",
+            "value": "Laughing"
+          },
+          {
+            "id": "3",
+            "value": "Yelling at squirrels"
+          }
+        ]
+      },
+      {
+        "id": "40002",
+        "price":  "4000",
+        "question": "At a restaurant, someone who \"foots the bill\" does what?",
+        "multiAnswer":"false",
+        "answers": ["3"],
+        "variants" :[
+          {
+            "id": "0",
+            "value": "Kisses it"
+          },
+          {
+            "id": "1",
+            "value": "Rips it up"
+          },
+          {
+            "id": "2",
+            "value": "Hopes to get lucky"
+          },
+          {
+            "id": "3",
+            "value": "Pays it"
+          }
+        ]
+      },
+      {
+        "id": "40003",
+        "price":  "4000",
+        "question": "In which of these films does Whoopi Goldberg dress up as a nun?",
+        "multiAnswer":"false",
+        "answers": ["0"],
+        "variants" :[
+          {
+            "id": "0",
+            "value": "Sister Act"
+          },
+          {
+            "id": "1",
+            "value": "Ghost"
+          },
+          {
+            "id": "2",
+            "value": "The Color Purple"
+          },
+          {
+            "id": "3",
+            "value": "How Judas Got His Groove Back"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "price": "8000",
+    "questions": [
+      {
+        "id": "80001",
+        "price": "8000",
+        "question": "If someone asked to see your ID, what might you show them?",
+        "multiAnswer": "false",
+        "answers": ["2"],
+        "variants" :[
+          {
+            "id": "0",
+            "value": "Your tongue"
+          },
+          {
+            "id": "1",
+            "value": "Your teeth"
+          },
+          {
+            "id": "2",
+            "value": "Your passport"
+          },
+          {
+            "id": "3",
+            "value": "The door"
+          }
+        ]
+      },
+      {
+        "id": "80002",
+        "price": "8000",
+        "question": "According to a common phrase, a person who takes chances is \"going out on a\" what?",
+        "multiAnswer":"false",
+        "answers": ["0"],
+        "variants" :[
+          {
+            "id": "0",
+            "value": "Limb"
+          },
+          {
+            "id": "1",
+            "value": "Horse"
+          },
+          {
+            "id": "2",
+            "value": "Skateboard"
+          },
+          {
+            "id": "3",
+            "value": "Nude beach"
+          }
+        ]
+      },
+      {
+        "id": "80003",
+        "price": "8000",
+        "question": "According to the old saying, \"love of\" what \"is the root of all evil\"?",
+        "multiAnswer":"false",
+        "answers": ["1"],
+        "variants" :[
+          {
+            "id": "0",
+            "value": "Food"
+          },
+          {
+            "id": "1",
+            "value": "Money"
+          },
+          {
+            "id": "2",
+            "value": "Clothing"
+          },
+          {
+            "id": "3",
+            "value": "Reality television"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "price": "16000",
+    "questions": [
+      {
+        "id": "160001",
+        "price": "16000",
+        "question": "A feisty train is the hero of a classic children's book titled The Little Engine That what?",
+        "multiAnswer": "false",
+        "answers": ["2"],
+        "variants" :[
+          {
+            "id": "0",
+            "value": "Ran"
+          },
+          {
+            "id": "1",
+            "value": "Cried"
+          },
+          {
+            "id": "2",
+            "value": "Could"
+          },
+          {
+            "id": "3",
+            "value": "Opened a can of whupass"
+          }
+        ]
+      },
+      {
+        "id": "160002",
+        "price":  "16000",
+        "question": "A person who is not a banker and lends money at an extremely high interest rate is known as what?",
+        "multiAnswer":"false",
+        "answers": ["0"],
+        "variants" :[
+          {
+            "id": "0",
+            "value": "Loan shark"
+          },
+          {
+            "id": "1",
+            "value": "Green snake"
+          },
+          {
+            "id": "2",
+            "value": "Paper tiger"
+          },
+          {
+            "id": "3",
+            "value": "Brother-in-law"
+          }
+        ]
+      },
+      {
+        "id": "160003",
+        "price":  "16000",
+        "question": "A well-known lyric in the holiday song \"Silver Bells\" promises that \"soon it will be\" what?",
+        "multiAnswer":"false",
+        "answers": ["2"],
+        "variants" :[
+          {
+            "id": "0",
+            "value": "July 4th weekend"
+          },
+          {
+            "id": "1",
+            "value": "Halloween night"
+          },
+          {
+            "id": "2",
+            "value": "Christmas day"
+          },
+          {
+            "id": "3",
+            "value": "National Burrito Month"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "price": "32000",
+    "questions": [
+      {
+        "id": "320001",
+        "price": "32000",
+        "question": "When a person is rudely ignored, he is said to be getting what?",
+        "multiAnswer": "false",
+        "answers": ["2"],
+        "variants" :[
+          {
+            "id": "0",
+            "value": "Hot knee"
+          },
+          {
+            "id": "1",
+            "value": "Warm toe"
+          },
+          {
+            "id": "2",
+            "value": "Cold shoulder"
+          },
+          {
+            "id": "3",
+            "value": "His car fixed"
+          }
+        ]
+      },
+      {
+        "id": "320002",
+        "price": "32000",
+        "question": "A common piece of advice goes, \"Be there or be\" what?",
+        "multiAnswer":"false",
+        "answers": ["1"],
+        "variants" :[
+          {
+            "id": "0",
+            "value": "Bare"
+          },
+          {
+            "id": "1",
+            "value": "Square"
+          },
+          {
+            "id": "2",
+            "value": "Aware"
+          },
+          {
+            "id": "3",
+            "value": "All alone as usual"
+          }
+        ]
+      },
+      {
+        "id": "320003",
+        "price": "32000",
+        "question": "\"And many more\" is a line commonly sung at the end of what traditional ditty?",
+        "multiAnswer":"false",
+        "answers": ["2"],
+        "variants" :[
+          {
+            "id": "0",
+            "value": "Old MacDonald"
+          },
+          {
+            "id": "1",
+            "value": "Jolly Good Fellow"
+          },
+          {
+            "id": "2",
+            "value": "Happy Birthday"
+          },
+          {
+            "id": "3",
+            "value": "Home on the Range"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "price": "64000",
+    "questions": [
+      {
+        "id": "640001",
+        "price": "64000",
+        "question": "If you're trying to find other players in a game of hide-and-seek, what are you most likely called?",
+        "multiAnswer": "false",
+        "answers": ["3"],
+        "variants" :[
+          {
+            "id": "0",
+            "value": "Butterbean"
+          },
+          {
+            "id": "1",
+            "value": "Stinky"
+          },
+          {
+            "id": "2",
+            "value": "Dunce"
+          },
+          {
+            "id": "3",
+            "value": "It"
+          }
+        ]
+      },
+      {
+        "id": "640002",
+        "price": "64000",
+        "question": "Which of these phrases is slang for \"someone who has a strong and unyielding attitude\"?",
+        "multiAnswer":"false",
+        "answers": ["3"],
+        "variants" :[
+          {
+            "id": "0",
+            "value": "Soggy cereal"
+          },
+          {
+            "id": "1",
+            "value": "Boiled ham"
+          },
+          {
+            "id": "2",
+            "value": "Ruffled chip"
+          },
+          {
+            "id": "3",
+            "value": "Tough cookie"
+          }
+        ]
+      },
+      {
+        "id": "640003",
+        "price": "64000",
+        "question": "If you're skeptical about something, you should \"take it with a grain of\" what?",
+        "multiAnswer":"false",
+        "answers": ["2"],
+        "variants" :[
+          {
+            "id": "0",
+            "value": "Sand"
+          },
+          {
+            "id": "1",
+            "value": "Sugar"
+          },
+          {
+            "id": "2",
+            "value": "Salt"
+          },
+          {
+            "id": "3",
+            "value": "MSG"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "price": "125000",
+    "questions": [
+      {
+        "id": "1250001",
+        "price": "125000",
+        "question": "Something in an obvious location is said to be \"right under your\" what?",
+        "multiAnswer": "false",
+        "answers": ["1"],
+        "variants" :[
+          {
+            "id": "0",
+            "value": "Mattress"
+          },
+          {
+            "id": "1",
+            "value": "Nose"
+          },
+          {
+            "id": "2",
+            "value": "Azaleas"
+          },
+          {
+            "id": "3",
+            "value": "Boxer shorts"
+          }
+        ]
+      },
+      {
+        "id": "1250002",
+        "price": "125000",
+        "question": "When a tree is cut down, the part that remains in the ground is called what?",
+        "multiAnswer":"false",
+        "answers": ["2"],
+        "variants" :[
+          {
+            "id": "0",
+            "value": "Rump"
+          },
+          {
+            "id": "1",
+            "value": "Hump"
+          },
+          {
+            "id": "2",
+            "value": "Stump"
+          },
+          {
+            "id": "3",
+            "value": "Leftovers"
+          }
+        ]
+      },
+      {
+        "id": "1250003",
+        "price": "125000",
+        "question": "To convince you he is truthful, a person is most likely to say he will \"swear on a stack of\" what?",
+        "multiAnswer":"false",
+        "answers": ["1"],
+        "variants" :[
+          {
+            "id": "0",
+            "value": "Gold"
+          },
+          {
+            "id": "1",
+            "value": "Bibles"
+          },
+          {
+            "id": "2",
+            "value": "Flags"
+          },
+          {
+            "id": "3",
+            "value": "Pancakes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "price": "250000",
+    "questions": [
+      {
+        "id": "2500001",
+        "price": "250000",
+        "question": "Where would you most likely hear the request \"Cleanup in aisle 5\"?",
+        "multiAnswer": "false",
+        "answers": ["1"],
+        "variants" :[
+          {
+            "id": "0",
+            "value": "Savings bank"
+          },
+          {
+            "id": "1",
+            "value": "Supermarket"
+          },
+          {
+            "id": "2",
+            "value": "Kindergarten"
+          },
+          {
+            "id": "3",
+            "value": "Roller coaster"
+          }
+        ]
+      },
+      {
+        "id": "2500002",
+        "price": "250000",
+        "question": "By definition, a 10-speed bike has 10 what?",
+        "multiAnswer":"false",
+        "answers": ["2"],
+        "variants" :[
+          {
+            "id": "0",
+            "value": "Wheels"
+          },
+          {
+            "id": "1",
+            "value": "Spokes"
+          },
+          {
+            "id": "2",
+            "value": "Gears"
+          },
+          {
+            "id": "3",
+            "value": "Lives"
+          }
+        ]
+      },
+      {
+        "id": "2500003",
+        "price": "250000",
+        "question": "A lullaby is a song sung to babies to help them do what?",
+        "multiAnswer":"false",
+        "answers": ["1"],
+        "variants" :[
+          {
+            "id": "0",
+            "value": "Wake up"
+          },
+          {
+            "id": "1",
+            "value": "Fall asleep"
+          },
+          {
+            "id": "2",
+            "value": "Eat"
+          },
+          {
+            "id": "3",
+            "value": "Invest wisely"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "price": "500000",
+    "questions": [
+      {
+        "id": "5000001",
+        "price": "500000",
+        "question": "In history books, leaders named Alexander and Catherine both share what flattering title?",
+        "multiAnswer": "false",
+        "answers": ["1"],
+        "variants" :[
+          {
+            "id": "0",
+            "value": "The Ferocious"
+          },
+          {
+            "id": "1",
+            "value": "The Great"
+          },
+          {
+            "id": "2",
+            "value": "The Unruly"
+          },
+          {
+            "id": "3",
+            "value": "The Eco-Conscious"
+          }
+        ]
+      },
+      {
+        "id": "5000002",
+        "price":  "500000",
+        "question": "What notable part of our nation's topography accounts for roughly 20 percent of the fresh water on Earth?",
+        "multiAnswer":"false",
+        "answers": ["2"],
+        "variants" :[
+          {
+            "id": "0",
+            "value": "Death Valley"
+          },
+          {
+            "id": "1",
+            "value": "Grand Canyon"
+          },
+          {
+            "id": "2",
+            "value": "The Great Lakes"
+          },
+          {
+            "id": "3",
+            "value": "Mark Zuckerberg's hot tub"
+          }
+        ]
+      },
+      {
+        "id": "5000003",
+        "price":  "500000",
+        "question": "A person who is preparing to work hard is said to be \"rolling up his\" what?",
+        "multiAnswer":"false",
+        "answers": ["0"],
+        "variants" :[
+          {
+            "id": "0",
+            "value": "Sleeves"
+          },
+          {
+            "id": "1",
+            "value": "Curtains"
+          },
+          {
+            "id": "2",
+            "value": "Towels"
+          },
+          {
+            "id": "3",
+            "value": "Mötley Crüe posters"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "price": "1000000",
+    "questions": [
+      {
+        "id": "10000001",
+        "price": "1000000",
+        "question": "In a popular style of joke, what traditionally comes before \"Who's there?\"",
+        "multiAnswer": "false",
+        "answers": ["2"],
+        "variants" :[
+          {
+            "id": "0",
+            "value": "Rat-a-tat-tat"
+          },
+          {
+            "id": "1",
+            "value": "Cooee"
+          },
+          {
+            "id": "2",
+            "value": "Knock-knock"
+          },
+          {
+            "id": "3",
+            "value": "Ding dong"
+          }
+        ]
+      },
+      {
+        "id": "10000002",
+        "price":  "1000000",
+        "question": "According to the proverb, \"Early to bed and early to rise\" makes you \"healthy, wealthy and\" what?",
+        "multiAnswer":"false",
+        "answers": ["0"],
+        "variants" :[
+          {
+            "id": "0",
+            "value": "Wise"
+          },
+          {
+            "id": "1",
+            "value": "Boring"
+          },
+          {
+            "id": "2",
+            "value": "Brave"
+          },
+          {
+            "id": "3",
+            "value": "Stealthy"
+          }
+        ]
+      },
+      {
+        "id": "10000003",
+        "price":  "1000000",
+        "question": "Which plant is a national symbol of Ireland?",
+        "multiAnswer":"false",
+        "answers": ["3"],
+        "variants" :[
+          {
+            "id": "0",
+            "value": "Rose"
+          },
+          {
+            "id": "1",
+            "value": "Thistle"
+          },
+          {
+            "id": "2",
+            "value": "Leek"
+          },
+          {
+            "id": "3",
+            "value": "Shamrock"
+          }
+        ]
+      }
+    ]
+  }
+]
