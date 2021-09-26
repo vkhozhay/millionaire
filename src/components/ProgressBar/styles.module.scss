@@ -1,6 +1,55 @@
+@import 'public/main';
+
 .progressBar {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
   justify-content: center;
+  gap: 1rem;
+  background: $white-100;
+
+
+  .priceContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 4rem;
+
+    &::before {
+      content:'';
+      position: absolute;
+      top: 50%;
+      left:0;
+      width: 100%;
+      height: 1px;
+      background-color: $black-40;
+    }
+
+    .price {
+      width: 100%;
+      max-width: 24rem;
+      height: 100%;
+
+      .value {
+        position: relative;
+        font-size: 2rem;
+      }
+    }
+  }
+
+  .active {
+    color:$orange-100;
+
+    &::before {
+      background-color: $orange-100;
+    }
+  }
+
+  .disable {
+    color: $black-40;
+  }
+
 }

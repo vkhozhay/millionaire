@@ -1,8 +1,8 @@
 import IRoute from './typings/interfaces';
 import RouteNames from './typings/enums';
-import Start from '../pages/Start';
+import Start from '../pages/Start/Start';
 import Game from '../pages/Game/Game';
-import GameOver from '../pages/GameOver';
+import GameOver from '../pages/GameOver/GameOver';
 
 const routes: IRoute[] = [
   { path: RouteNames.START, component: Start, exact: true },

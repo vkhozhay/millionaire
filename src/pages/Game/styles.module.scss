@@ -1,4 +1,8 @@
+@import 'public/main';
+
 .gameContainer {
   display: grid;
-  grid-template-columns: 2rem 1rem;
+  grid-template-columns: 1fr 38rem;
+  height: 100vh;
+  background-color: $black-5;
 }

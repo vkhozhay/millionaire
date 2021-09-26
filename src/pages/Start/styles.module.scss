@@ -1,0 +1,16 @@
+@import "public/main";
+
+.startPage {
+  background: rgb(255,243,235);
+  background: linear-gradient(to right bottom,  $white-100 50%, $orange-5 50%);
+
+  .startTitle {
+    font-size: 5.6rem;
+    font-weight: 600;
+
+    @media screen and (max-width: 768px) {
+      text-align: center;
+      font-size: 4rem;
+    }
+  }
+}

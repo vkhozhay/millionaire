@@ -1,0 +1,42 @@
+@import "public/main";
+
+.answerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50%;
+  height: 7rem;
+
+  &:nth-child(2n) {
+    justify-content: flex-start;
+  }
+
+  .answer {
+    width: 100%;
+    max-width: 38rem;
+    height: 100%;
+    cursor: pointer;
+
+    .value {
+      position: relative;
+      display: flex;
+      align-items: center;
+      width: 80%;
+      padding: 1rem 3rem;
+      box-sizing: border-box;
+      font-size: 2rem;
+      font-weight: 400;
+
+      @media screen and (max-width:768px ){
+        font-size: 1.5rem;
+      }
+
+      .valueLetter {
+        padding-right: 1rem;
+        font-weight: 600;
+        color:$orange-100;
+      }
+    }
+  }
+
+}
