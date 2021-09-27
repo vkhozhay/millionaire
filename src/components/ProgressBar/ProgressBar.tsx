@@ -3,6 +3,7 @@ import classNames from 'classnames/bind';
 import { useAppSelector } from '../../utils/hooks/reduxHooks';
 import styles from './styles.module.scss';
 import Price from './renders/Price';
+import MobileHeaderActions from '../MobileHeaderActions/MobileHeaderActions';
 
 interface IProps {
   active:boolean;
@@ -14,9 +15,9 @@ const ProgressBar:FC<IProps> = ({ active, onClose }) => {
 
   return (
     <div className={classNames(styles.progressBarContainer, active && styles.progressActive)}>
-      <div className={styles.header}>
+      <MobileHeaderActions>
         <div className={styles.closeBtn} role="presentation" onClick={onClose} />
-      </div>
+      </MobileHeaderActions>
       <div className={styles.progressBar}>
         {
           gameQuestions.map((question, i) => (

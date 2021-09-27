@@ -5,6 +5,10 @@ interface IProps {
   value: string
 }
 
-const QuestionTitle:FC<IProps> = ({ value }) => <h2 className={styles.questionTitle}>{value}</h2>;
+const QuestionTitle:FC<IProps> = ({ value }) => (
+  <div className={styles.questionTitleContainer}>
+    <h2 className={styles.questionTitle}>{value}</h2>
+  </div>
+);
 
 export default QuestionTitle;

@@ -1,16 +1,26 @@
-.questionTitle {
+.questionTitleContainer {
+  display: flex;
   height: 50%;
   max-height: 50%;
   overflow-y: auto;
   padding: 0 8rem;
-font-size: 3.2rem;
-  font-weight: 600;
 
   @media screen and (max-width: 1024px){
-    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
 
-  @media screen and (max-width: 768px) {
-    font-size: 2rem;
+  .questionTitle {
+    font-size: 3.2rem;
+    font-weight: 600;
+
+    @media screen and (max-width: 1024px){
+      text-align: center;
+    }
+
+    @media screen and (max-width: 768px) {
+      font-size: 2rem;
+    }
   }
 }
+

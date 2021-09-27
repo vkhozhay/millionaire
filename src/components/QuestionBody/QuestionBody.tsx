@@ -3,6 +3,7 @@ import styles from './styles.module.scss';
 import { useAppSelector } from '../../utils/hooks/reduxHooks';
 import QuestionTitle from './renders/QuestionTitle/QuestionTitle';
 import AnswersGroup from './renders/AnswersGroup/AnswersGroup';
+import MobileHeaderActions from '../MobileHeaderActions/MobileHeaderActions';
 
 interface IProps {
   onOpenProgress:()=>void;
@@ -16,9 +17,9 @@ const QuestionBody:FC<IProps> = ({ onOpenProgress }) => {
 
   return (
     <div className={styles.questionBody}>
-      <div className={styles.header}>
+      <MobileHeaderActions>
         <div className={styles.openProgressBtn} role="presentation" onClick={onOpenProgress} />
-      </div>
+      </MobileHeaderActions>
       <QuestionTitle value={activeQuestion.question} />
       <AnswersGroup />
     </div>

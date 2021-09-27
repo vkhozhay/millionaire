@@ -15,11 +15,24 @@ import sleep from '../../../../utils/sleep';
 import shuffleArray from '../../../../utils/shuffleArray';
 import { alphabet } from './constants';
 
+type TAvailableVariants = {
+  selected:string | null;
+  correct: string | null;
+  wrong:string | null;
+};
+
+const defaultAvailableVariants: TAvailableVariants = {
+  selected: null,
+  correct: null,
+  wrong: null,
+};
+
 const AnswersGroup:FC = () => {
   const [variants, setVariants] = useState<TAnswerVariant[]>([]);
-  const [selected, setSelected] = useState<string | null>(null);
-  const [correct, setCorrect] = useState<string | null>(null);
-  const [wrong, setWrong] = useState<string | null>(null);
+
+  const [availableVariants, setAvailableVariants] = useState({ ...defaultAvailableVariants });
+  const { selected, correct, wrong } = availableVariants;
+
   const [clicked, setClicked] = useState<boolean>(false);
   const dispatch = useAppDispatch();
   const activeQuestion = useAppSelector((state) => state.questions.activeQuestion);
@@ -31,21 +44,23 @@ const AnswersGroup:FC = () => {
     if (selected || correct || wrong) {
       return;
     }
+    const correctAnswer:string = activeQuestion.answers[0];
     setClicked(true);
-    setSelected(variant.id);
+    setAvailableVariants((prev) => ({ ...prev, selected: variant.id }));
     await sleep(1000);
-    setSelected(null);
-    setCorrect(activeQuestion.answers[0]);
+    setAvailableVariants((prev) => ({
+      ...prev,
+      selected: null,
+      correct: correctAnswer,
+    }));
     if (activeQuestion.answers[0] !== variant.id) {
-      setWrong(variant.id);
+      setAvailableVariants((prev) => ({ ...prev, wrong: variant.id }));
     }
     await sleep(1500);
-    setCorrect(null);
-    setWrong(null);
+    setAvailableVariants({ ...defaultAvailableVariants });
     setClicked(false);
-    if (variant.id === activeQuestion.answers[0]) {
+    if (variant.id === correctAnswer) {
       if (gameProgress === gameQuestions.length - 1) {
-        dispatch(setGameScore({ score: +activeQuestion.price }));
         dispatch(setGameState({ state: 2 }));
         history.push(RouteNames.GAME_OVER);
       }
