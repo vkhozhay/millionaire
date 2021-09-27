@@ -1,8 +1,13 @@
 @import 'public/main';
 
 .gameContainer {
+  position: relative;
   display: grid;
   grid-template-columns: 1fr 38rem;
   height: 100vh;
   background-color: $black-5;
+
+  @media screen and (max-width: 768px) {
+    display: block;
+  }
 }

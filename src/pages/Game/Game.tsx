@@ -1,4 +1,6 @@
-import React, { FC, useEffect } from 'react';
+import React, {
+  FC, useCallback, useEffect, useState,
+} from 'react';
 import { useAppDispatch, useAppSelector } from '../../utils/hooks/reduxHooks';
 import getGameQuestions from '../../utils/getGameQuestions';
 import { setActiveQuestion, setGameQuestions } from '../../store/reducers/questions/questionsSlice';
@@ -12,6 +14,11 @@ const Game: FC = () => {
   const gameState = useAppSelector((state) => state.game.state);
   const gameProgress = useAppSelector((state) => state.game.progress);
   const dispatch = useAppDispatch();
+
+  const [progressActive, setProgressActive] = useState<boolean>(false);
+
+  const handleOpenProgress = useCallback(() => setProgressActive(true), []);
+  const handleCloseProgress = useCallback(() => setProgressActive(false), []);
 
   useEffect(() => {
     if (gameState !== 1) {
@@ -29,8 +36,8 @@ const Game: FC = () => {
 
   return (
     <div className={styles.gameContainer}>
-      <QuestionBody />
-      <ProgressBar />
+      <QuestionBody onOpenProgress={handleOpenProgress} />
+      <ProgressBar active={progressActive} onClose={handleCloseProgress} />
     </div>
   );
 };

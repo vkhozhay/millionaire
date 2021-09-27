@@ -97,11 +97,13 @@
 }
 
 .hover {
-  &:hover path{
-    stroke: $orange-100;
-  }
+  @media screen and (min-width: 1024px) {
+    &:hover path{
+      stroke: $orange-100;
+    }
 
-  &:hover::before {
-    background-color: $orange-100;
+    &:hover::before {
+      background-color: $orange-100;
+    }
   }
 }

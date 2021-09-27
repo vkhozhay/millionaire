@@ -1,4 +1,5 @@
 import React, { FC } from 'react';
+import classNames from 'classnames/bind';
 import { TAnswerVariant } from '../../../../typings/types/Question';
 import styles from './styles.module.scss';
 import Hexagon from '../../../Hexagon/Hexagon';
@@ -10,11 +11,12 @@ interface IProps {
   onClick: (answer:TAnswerVariant)=>void;
   selected: boolean;
   correct:boolean;
-  wrong: boolean
+  wrong: boolean;
+  clicked: boolean;
 }
 
 const Answer:FC<IProps> = ({
-  letter, answer, onClick, selected, correct, wrong,
+  letter, answer, onClick, selected, correct, wrong, clicked,
 }) => {
   const variant:string = (selected && HexagonVariants.SELECTED)
       || (correct && HexagonVariants.CORRECT)
@@ -22,16 +24,16 @@ const Answer:FC<IProps> = ({
       || HexagonVariants.DEFAULT;
 
   return (
-    <div className={styles.answerContainer}>
+    <div className={classNames(styles.answerContainer, styles[variant])}>
       <div
         className={styles.answer}
         role="presentation"
         onClick={onClick.bind(null, answer)}
       >
-        <Hexagon hovered variant={variant}>
+        <Hexagon hovered={!clicked} variant={variant}>
           <div className={styles.value}>
             <span className={styles.valueLetter}>{letter}</span>
-            <p>{answer.value}</p>
+            <p className={styles.valueText}>{answer.value}</p>
           </div>
         </Hexagon>
       </div>

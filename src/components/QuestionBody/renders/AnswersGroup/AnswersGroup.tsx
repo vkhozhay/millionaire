@@ -17,9 +17,10 @@ import { alphabet } from './constants';
 
 const AnswersGroup:FC = () => {
   const [variants, setVariants] = useState<TAnswerVariant[]>([]);
-  const [selected, setSelected] = useState<string | undefined>(undefined);
-  const [correct, setCorrect] = useState<string | undefined>(undefined);
-  const [wrong, setWrong] = useState<string | undefined>(undefined);
+  const [selected, setSelected] = useState<string | null>(null);
+  const [correct, setCorrect] = useState<string | null>(null);
+  const [wrong, setWrong] = useState<string | null>(null);
+  const [clicked, setClicked] = useState<boolean>(false);
   const dispatch = useAppDispatch();
   const activeQuestion = useAppSelector((state) => state.questions.activeQuestion);
   const gameProgress = useAppSelector((state) => state.game.progress);
@@ -30,16 +31,18 @@ const AnswersGroup:FC = () => {
     if (selected || correct || wrong) {
       return;
     }
+    setClicked(true);
     setSelected(variant.id);
     await sleep(1000);
-    setSelected(undefined);
+    setSelected(null);
     setCorrect(activeQuestion.answers[0]);
     if (activeQuestion.answers[0] !== variant.id) {
       setWrong(variant.id);
     }
     await sleep(1500);
-    setCorrect(undefined);
-    setWrong(undefined);
+    setCorrect(null);
+    setWrong(null);
+    setClicked(false);
     if (variant.id === activeQuestion.answers[0]) {
       if (gameProgress === gameQuestions.length - 1) {
         dispatch(setGameScore({ score: +activeQuestion.price }));
@@ -66,6 +69,7 @@ const AnswersGroup:FC = () => {
             key={variant.id}
             letter={alphabet[i]}
             answer={variant}
+            clicked={clicked}
             onClick={handleVariantClick}
             selected={selected === variant.id}
             correct={correct === variant.id}

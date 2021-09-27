@@ -2,7 +2,17 @@
 
 html {
   font-size: 10px;
+
+  @media screen and (max-width: 1024px) {
+    font-size: 9px;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 8px;
+  }
 }
+
+
 body {
   margin: 0;
   padding: 0;
@@ -11,11 +21,7 @@ body {
   color: $black-100;
 }
 
-@media screen and (max-width: 768px) {
-  html {
-    font-size: 8px;
-  }
-}
+
 
 
 
